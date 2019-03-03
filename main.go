@@ -15,7 +15,7 @@ const Header = `# Netscape HTTP Cookie File
 func main() {
 
     if len(os.Args) != 2 {
-        fmt.Fprintf(os.Stderr, "Usage: eat-cookie <FILE.binarycookies>")
+        fmt.Fprintf(os.Stderr, "Usage: bincookie <FILE.binarycookies>")
         os.Exit(0)
     }
     
